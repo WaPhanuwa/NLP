@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #85a6db;
+        }
+        .container {
+            display: flex;
+            background: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 750px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .login-section, .image-section {
+            flex: 1;
+            padding: 30px;
+        }
+        .login-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .input-box {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 10px;
+            width: 100%;
+        }
+        .input-box input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 5px;
+        }
+        .login-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .image-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <h2>LOGIN 🔒</h2>
+            <div class="input-box">
+                <span>👤</span>
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <span>🔒</span>
+                <input type="password" placeholder="Password">
+            </div>
+            <button class="login-btn">Login</button>
+        </div>
+        <div class="image-section">
+            <img src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEWEzGP24a0s59rnRcMInG%2Bov%2BTOgJ%2FHTgUDa%2B8phLlRCFxVmEP5PXXCqpK7jj0O%2Fze%2B7S0pnvKRft2SMA%2B590L9Xt4HAy9mDYL3GCydbKLv6fhOgSDXTJgZZ1u08DXm3q%2FsYlY2NERVGTDY1zcEtlYd7vQv3Tm2zfHzwKMj4ozSABaZ5a0RmVypm%2BD99Ni3N8yaa0%2BxmDIU9z7SzxLHR3LVahR6eKPyKHFzaQJ%2FGl5U1BcFMAI4HPXrcqx77wdZcz%2Fi5%2FVghPeA8CIIZ8OfiDBHKa11xt8Z9l8W0Z6jf94Zeb%2Fw3vCjQIfl0B4Haz3WjAocw%2FhLALejbbaGteUIp00UJtKCXhEChq1vuRZ05CTQSNv4IbqMEHWZfZx9EElz0F7GOrVK8XrOLvaezgVkkijUzFSWrzJM3Dzx5gEEPkBotwMZ8%2BjSjXuiSHAOckWOMZWaJUMHH6veQqBT0vc1c7s6uH6fAF%2F0q8pa6jDIDMCfnuBDGc1riZruZX1scSq36MwRgVfYQwQQnYMVlhk8BNaMPhXsesptYMySzZtSSMRUhpFrk8uDJ28BmqYSXgTDh0BBpF5pKE0S1jwoP5nZexl53cSkTmVW&allow_caching=true&sz=w512-k" alt="Shop Illustration">
+        </div>
+    </div>
+</body>
+</html>
